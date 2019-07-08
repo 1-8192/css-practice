@@ -54,8 +54,20 @@ body {
     padding: 0;
 }
 
-.plan__features li {
+.plan__title {
     margin: 8px;
+}
+
+.plan__price {
+    color: #858585;
+}
+
+.plan--highlighted .plan__title {
+    color: white;
+}
+
+.plan--highlighted .plan__price {
+    color: #0e4f1f;
 }
 
 /* h1 {
