@@ -1,0 +1,64 @@
+main {
+    padding-top: 32px;
+}
+
+.plan-box {
+    background: #d5ffdc;
+    text-align: left;
+    padding: 16px;
+    margin: 16px 0;
+    width: 80%;
+    vertical-align: middle;
+    border: 5px solid #0e4f1f;
+    border-left: none;
+    float: right;
+}
+
+.plan-box-premium{
+    background: #0e4f1f;
+    text-align: left;
+    padding: 16px;
+    margin: 16px 0;
+    width: 80%;
+    vertical-align: middle;
+    border-left: none;
+}
+
+.plan-box__link {
+    text-decoration: none;
+    display: block;
+}
+
+.plan-box__title {
+    color: black;
+}
+
+.plan-box__tagline {
+    color: gray;
+}
+
+.plan-box__description {
+    background-color: white;
+    color: #0e4f1f;
+    border: 2px solid #0e4f1f;
+    padding: 8px 8px;
+}
+
+.plan-box-premium__title {
+    color: white;
+}
+
+.plan-box-premium__tagline {
+    color: gray;
+}
+
+.plan-box-premium__description {
+    background-color: white;
+    color: #0e4f1f;
+    border: 2px solid #0e4f1f;
+    padding: 8px 8px;
+}
+
+.clearfix {
+    clear: both;
+}
