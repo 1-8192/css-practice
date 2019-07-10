@@ -7,23 +7,6 @@ body {
     margin: 0;
 }
 
-.button {
-    background-color: #0e4f1f;
-    color: white;
-    font: inherit;
-    border; 1.5px solid #0e4f1f;
-    padding: 8px;
-    border-radius: 8px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.button:hover, 
-.button:active {
-    background-color: white;
-    color: #0e4f1f;
-}
-
 .main-header {
     width: 100%;
     background: #2ddf5c;
@@ -88,13 +71,13 @@ body {
 }
 
 .main-footer {
-    background-color: black;
+    background: black;
     padding: 32px;
     margin-top: 48px;
 }
 
 .main-footer__links {
-    list_style: none;
+    list-style: none;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -113,4 +96,25 @@ body {
 .main-footer__link a:hover,
 .main-footer__link a:active {
     color: #ccc;
+}
+
+.button {
+    background: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1.5px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background: white;
+    color: #0e4f1f;
+}
+
+.button:focus {
+    outline: none;
 }
