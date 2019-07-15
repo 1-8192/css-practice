@@ -7,6 +7,12 @@
     padding: 10px;   
 }
 
+#overview-h1 {
+   position: absolute;
+   bottom: 30%;
+   left: 9%;
+}
+
 .section-title {
     color: #2ddf5c;
     text-align: center;
