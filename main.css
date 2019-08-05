@@ -12,14 +12,8 @@
   /* background-image: radial-gradient(ellipse farthest-corner at 20% 50%, red, blue 70%, green); */
   width: 100vw;
   height: 33vh;
-  margin-top: 2.75rem;
   /* border: 5px dashed red; */
   position: relative;
-}
-
-.section-title {
-  color: #2ddf5c;
-  text-align: center;
 }
 
 #product-overview h1 {
@@ -31,7 +25,7 @@
   font-size: 1.6rem;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 40rem) and (min-height: 40rem) {
   #product-overview {
     height: 40vh;
     background-position: 50% 25%;
@@ -40,6 +34,11 @@
   #product-overview h1 {
     font-size: 3rem;
   }
+}
+
+.section-title {
+  color: #2ddf5c;
+  text-align: center;
 }
 
 .plan {
@@ -53,7 +52,6 @@
 .plan--highlighted {
   background: #19b84c;
   color: white;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .plan__annotation {
@@ -92,16 +90,20 @@
 
 @media (min-width: 40rem) {
   .plan__list {
-  width: 80%;
-  margin: auto;
-  text-align: center;
+    width: 100%;
+    text-align: center;
   }
 
   .plan {
     display: inline-block;
     width: 30%;
-    vertical-align: center;
+    vertical-align: middle;
     min-width: 13rem;
+    max-width: 25rem;
+  }
+
+  .plan--highlighted {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -123,11 +125,6 @@
   text-align: center;
 }
 
-.key-feature {
-  width: 100%;
-  vertical-align: top;
-}
-
 .key-feature__image {
   background: #ffcede;
   width: 128px;
@@ -146,11 +143,11 @@
 }
 
 @media (min-width: 40rem) {
-
   .key-feature {
     display: inline-block;
     width: 30%;
-    max-width: 25 rem;
+    max-width: 25rem;
+    vertical-align: top;
   }
 }
 
