@@ -9,6 +9,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
+  display: grid;
 }
 
 main {
@@ -34,7 +35,7 @@ main {
   left: 0;
   background: #2ddf5c;
   padding: 0.5rem 1rem;
-  z-index: 4;
+  z-index: 60;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -84,7 +85,6 @@ main {
   padding: 0;
   list-style: none;
   display: flex;
-  justify-content: flex-end;
 }
 
 .main-nav__item {
@@ -144,7 +144,6 @@ main {
   padding: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -177,7 +176,7 @@ main {
   width: 90%;
   height: 100%;
   list-style: none;
-  margin: 0% auto;
+  margin: 0 auto;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -231,9 +230,7 @@ main {
   }
 
   .main-footer__links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
     flex-direction: row;
+    justify-content: center;
   }
 }
