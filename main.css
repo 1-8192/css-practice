@@ -165,8 +165,10 @@
 } */
 
 .modal {
+  opacity: 0;
+  transform: translateY(-3rem);
+  transition: opacity 0.5s, transform 200ms;
   position: fixed;
-  display: none;
   z-index: 200;
   top: 20%;
   left: 30%;
